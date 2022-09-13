@@ -28,7 +28,7 @@ Feature: Bee crowd 1094
     Total de coelhos: 29
     Total de ratos: 40
     Total de sapos: 23
-    Percentual de coelhos: %2.f %31.52173913043478
+    Percentual de coelhos: 31.52173913043478 %
     Percentual de ratos: 43.47826086956522 %
     Percentual de sapos: 25.0 %
     """

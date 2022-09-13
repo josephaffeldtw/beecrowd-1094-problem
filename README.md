@@ -24,7 +24,6 @@ Apresente o total de cobaias utilizadas, o total de cada tipo de cobaia utilizad
 5 C
 14 R
 
-
 ### Exemplo de Saída
 
 Total: 92 cobaias

@@ -6,11 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ExperimentsSteps {
 
+    private static final double DELTA = 1e-15;
+
     private final Experiments experiments = new Experiments();
+
     private double rabbitPorcentage = 0;
     private double ratPorcentage = 0;
     private double frogPorcentage = 0;
-    private static final double DELTA = 1e-15;
 
     @Given("input is {int} {int} {int} {int} {int} {int}")
     public void sumAnimals(int a, int b, int c, int d, int e, int f) {

@@ -28,45 +28,12 @@ public class Experiments {
     }
 
     void output(){
-        System.out.println("\n");
         System.out.println("Total: " + this.animals +" cobaias");
         System.out.println("Total de coelhos: " + this.rabbit);
         System.out.println("Total de ratos: " + this.rat);
         System.out.println("Total de sapos: " + this.frog);
         System.out.println("Percentual de coelhos: " + this.calculatePercentage(this.rabbit, this.animals) + " %");
         System.out.println("Percentual de ratos: " + this.calculatePercentage(this.rat, this.animals) + " %");
-        System.out.println("Percentual de sapos: " + this.calculatePercentage(this.frog, this.animals) + " %");
+        System.out.print("Percentual de sapos: " + this.calculatePercentage(this.frog, this.animals) + " %");
     }
-
-//    public int getRabbit() {
-//        return rabbit;
-//    }
-//
-//    public void setRabbit(int rabbit) {
-//        this.rabbit += rabbit;
-//    }
-//
-//    public int getRat() {
-//        return rat;
-//    }
-//
-//    public void setRat(int rat) {
-//        this.rat += rat;
-//    }
-//
-//    public int getFrog() {
-//        return frog;
-//    }
-//
-//    public void setFrog(int frog) {
-//        this.frog += frog;
-//    }
-//
-//    public int getAnimals() {
-//        return animals;
-//    }
-//
-//    public void setAnimals(int animals) {
-//        this.animals += animals;
-//    }
 }
