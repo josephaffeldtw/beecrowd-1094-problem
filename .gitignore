@@ -14,8 +14,6 @@ dist/
 # Gradle
 build/
 out/
-.gradle/
-gradlew.*
 
 # JetBrains IDE
 .idea/
