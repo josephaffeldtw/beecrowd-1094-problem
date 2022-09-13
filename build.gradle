@@ -1,6 +1,13 @@
 plugins {
     id 'java'
     id "org.sonarqube" version "3.4.0.2513"
+    id "jacoco"
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
 }
 
 group 'org.example'
