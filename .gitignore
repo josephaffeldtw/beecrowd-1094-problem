@@ -16,7 +16,6 @@ build/
 out/
 .gradle/
 gradlew.*
-gradle
 
 # JetBrains IDE
 .idea/
